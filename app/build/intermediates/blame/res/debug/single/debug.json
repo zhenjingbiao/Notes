@@ -1,0 +1,454 @@
+[
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_paint_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_paint_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_record_stop_default.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_record_stop_default.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_popwindow_background.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\popwindow_background.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_record_wave_right_02.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\record_wave_right_02.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_paint.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\activity_paint.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_line_age.jpg.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\line_age.jpg"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_show_picture.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\activity_show_picture.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_photo.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_photo.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_camera_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_camera_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable_record_wave_right.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable\\record_wave_right.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_line.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\line.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_erazer_normal.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_erazer_normal.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_edittext_bg.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\edittext_bg.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_record_stop.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_record_stop.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\activity_add.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_record_wave_right_01.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\record_wave_right_01.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_record_icon.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\record_icon.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_notes_item_bg.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\notes_item_bg.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_microphone.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_microphone.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_appendix_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_appendix_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_erazer_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_erazer_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_handwrite.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_handwrite.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_navigationbar_save.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\navigationbar_save.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_appendix.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_appendix.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_record_stop_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_record_stop_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_record_microphone_icon.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\record_microphone_icon.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_photograph.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\activity_photograph.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bottom_item.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\bottom_item.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_handwrite_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_handwrite_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_record_wave_right_03.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\record_wave_right_03.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_close.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_close.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_microphone_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_microphone_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_close_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_close_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_navigationbar_backup_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\navigationbar_backup_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_more.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_more.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_navigationbar_setting.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\navigationbar_setting.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_show_btn_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\show_btn_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_appendix.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_appendix.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_button.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\item_button.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_record_start_default.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_record_start_default.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_photo_default.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_photo_default.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_pencil_normal.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_pencil_normal.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_pen_default.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_pen_default.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_record_wave_left_01.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\record_wave_left_01.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_record_wave_left_04.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\record_wave_left_04.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_navigationbar_save_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\navigationbar_save_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_icon_delete_normal.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_icon_delete_normal.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_pen.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_pen.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_icon_back_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_icon_back_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_window.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\popup_window.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_note_item.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\note_item.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_navigationbar_add_default.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\navigationbar_add_default.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_camera.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_camera.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_pencil_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_pencil_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_title_main.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\title_main.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_icon_color_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_icon_color_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_record_wave_left_02.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\record_wave_left_02.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable_record_wave_left.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable\\record_wave_left.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_navigationbar_backup_default.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\navigationbar_backup_default.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_navigationbar_setting_default.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\navigationbar_setting_default.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_navigationbar_backup.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\navigationbar_backup.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bg.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\bg.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_navigationbar_bg.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\navigationbar_bg.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_icon_forward_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_icon_forward_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_icon_delete.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_icon_delete.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_camera_default.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_camera_default.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_erazer.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_erazer.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_record.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\activity_record.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_icon_color_normal.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_icon_color_normal.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_more_default.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_more_default.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_show_record.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\activity_show_record.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_play.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\play.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_video.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\video.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_navigationbar_add.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\navigationbar_add.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_more_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_more_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_record_wave_right_04.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\record_wave_right_04.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_icon_back_normal.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_icon_back_normal.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_title_add.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\title_add.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_navigationbar_save_default.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\navigationbar_save_default.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_icon_back.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_icon_back.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_navigationbar_setting_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\navigationbar_setting_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_icon_forward_normal.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_icon_forward_normal.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_record.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\record.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_record_wave_left_03.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\record_wave_left_03.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_navigationbar_add_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\navigationbar_add_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_appendix_default.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_appendix_default.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_pencil.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_pencil.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_paint_style_dialog.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\paint_style_dialog.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_paint_default.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_paint_default.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_icon_forward.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_icon_forward.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_shownote.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\activity_shownote.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_main_bg.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\main_bg.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_photo_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_photo_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_pen_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_pen_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_microphone_default.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_microphone_default.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_icon_delete_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_icon_delete_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_pen.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\pen.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_handwrite_default.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_handwrite_default.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_icon_color.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_icon_color.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_setting_item_bg.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\setting_item_bg.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_handwrite.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\activity_handwrite.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_record_start_pressed.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_record_start_pressed.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_record_start.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_record_start.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_close_default.png.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_close_default.png"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_paint.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_paint.xml"
+    },
+    {
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_window_item.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\popup_window_item.xml"
+    }
+]
