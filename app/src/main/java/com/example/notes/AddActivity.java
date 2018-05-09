@@ -36,6 +36,7 @@ import android.text.Editable;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.Spanned;
+import android.text.TextUtils;
 import android.text.style.ImageSpan;
 import android.util.Log;
 import android.view.View;
@@ -44,15 +45,16 @@ import android.view.Window;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.SimpleAdapter;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class AddActivity extends Activity
+import com.example.notes.utils.CustomPopView;
+
+public class AddActivity extends Activity implements IPopView
 {
     private static final String TAG = "AddActivity";
 
@@ -87,16 +89,19 @@ public class AddActivity extends Activity
 
     private TextView mSelectMoodTv;
 
-    private Spinner mSelectMoodSp;
-
     private ArrayList<String> mMoods;
-
-    private ArrayAdapter<String> mSpinnerAdapter;
 
     private int currentPos = 0;
 
     private File videoFile;
+
     private String videoPath;
+
+    private ImageView mSelectedIv;
+
+    private Button mSelecteBtn;
+
+    private List<Integer> mExpressImages = new ArrayList<Integer>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -105,12 +110,48 @@ public class AddActivity extends Activity
         requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(R.layout.activity_add);
         getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.title_add);
+        initData();
         initView();
         // 加载数据
         loadData();
     }
 
-    private void initView() {
+    private void initData()
+    {
+        mExpressImages.add(R.drawable.express1);
+        mExpressImages.add(R.drawable.express2);
+        mExpressImages.add(R.drawable.express3);
+        mExpressImages.add(R.drawable.express4);
+        mExpressImages.add(R.drawable.express5);
+        mExpressImages.add(R.drawable.express6);
+        mExpressImages.add(R.drawable.express7);
+        mExpressImages.add(R.drawable.express8);
+        mExpressImages.add(R.drawable.express9);
+        mExpressImages.add(R.drawable.express10);
+        mExpressImages.add(R.drawable.express11);
+        mExpressImages.add(R.drawable.express12);
+        mExpressImages.add(R.drawable.express13);
+        mExpressImages.add(R.drawable.express14);
+        mExpressImages.add(R.drawable.express15);
+        mExpressImages.add(R.drawable.express16);
+        mExpressImages.add(R.drawable.express17);
+        mExpressImages.add(R.drawable.express18);
+        mExpressImages.add(R.drawable.express19);
+        mExpressImages.add(R.drawable.express20);
+        mExpressImages.add(R.drawable.express21);
+        mExpressImages.add(R.drawable.express22);
+        mExpressImages.add(R.drawable.express23);
+        mExpressImages.add(R.drawable.express24);
+        mExpressImages.add(R.drawable.express25);
+        mExpressImages.add(R.drawable.express26);
+        mExpressImages.add(R.drawable.express27);
+        mExpressImages.add(R.drawable.express28);
+        mExpressImages.add(R.drawable.express29);
+        mExpressImages.add(R.drawable.express30);
+    }
+
+    private void initView()
+    {
         bt_back = (Button) findViewById(R.id.bt_back);
         bt_back.setOnClickListener(new ClickEvent());
         bt_save = (Button) findViewById(R.id.bt_save);
@@ -120,9 +161,8 @@ public class AddActivity extends Activity
 
         bottomMenu = (GridView) findViewById(R.id.bottomMenu);
         mSelectMoodTv = (TextView) findViewById(R.id.mood_select_tv);
-        mSelectMoodSp = (Spinner) findViewById(R.id.mood_select_sp);
-        initSpinner();
-
+        mSelectedIv = (ImageView) findViewById(R.id.selected_iv);
+        mSelecteBtn = (Button) findViewById(R.id.select_btn);
         // 配置菜单
         initBottomMenu();
         // 为菜单设置监听器
@@ -136,33 +176,13 @@ public class AddActivity extends Activity
 
         // 给editText添加单击事件
         et_Notes.setOnClickListener(new TextClickEvent());
-    }
-
-    private void initSpinner()
-    {
-
-        // 添加心情列表
-        mMoods = new ArrayList<String>();
-        mMoods.add("非常好");
-        mMoods.add("很好");
-        mMoods.add("好");
-        mMoods.add("一般般");
-        mMoods.add("不开心");
-        mMoods.add("郁闷");
-        mSpinnerAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, mMoods);
-        mSpinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        mSelectMoodSp.setAdapter(mSpinnerAdapter);
-        mSelectMoodSp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener()
+        final CustomPopView customPopView = new CustomPopView(this, this, mExpressImages);
+        mSelecteBtn.setOnClickListener(new OnClickListener()
         {
             @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id)
+            public void onClick(View v)
             {
-                currentPos = position;
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent)
-            {
+                customPopView.showAtDropDownCenter(mSelecteBtn);
             }
         });
     }
@@ -187,6 +207,10 @@ public class AddActivity extends Activity
             // 取出数据库中相应的字段内容
             String context = cursor.getString(cursor.getColumnIndex("context"));
 
+            String mood = cursor.getString(cursor.getColumnIndex("mood"));
+            if(!TextUtils.isEmpty(mood)){
+                mSelectedIv.setImageResource(Integer.parseInt(mood));
+            }
             // 定义正则表达式，用于匹配路径
             Pattern p = Pattern.compile("/([^\\.]*)\\.\\w{3}");
             Matcher m = p.matcher(context);
@@ -213,7 +237,9 @@ public class AddActivity extends Activity
                     bm = BitmapFactory.decodeResource(getResources(), R.drawable.record_icon);
                     // 缩放图片
                     rbm = resize(bm, 200);
-                }else if(type.equals("mp4")){
+                }
+                else if (type.equals("mp4"))
+                {
                     bm = BitmapFactory.decodeResource(getResources(), R.drawable.video);
                     // 缩放图片
                     rbm = resize(bm, 200);
@@ -245,6 +271,13 @@ public class AddActivity extends Activity
             et_Notes.append(context.substring(startIndex, context.length()));
             dop.close_db();
         }
+    }
+
+    @Override
+    public void setPostion(int postion)
+    {
+        currentPos = postion;
+        mSelectedIv.setImageResource(mExpressImages.get(postion));
     }
 
     // 为EidtText设置监听器
@@ -285,7 +318,7 @@ public class AddActivity extends Activity
                     // 录音，则跳转到试听录音的Activity
                     if (path.substring(path.length() - 3, path.length()).equals("amr"))
                     {
-                        Log.d(TAG, "onClick: 录音"+path);
+                        Log.d(TAG, "onClick: 录音" + path);
                         Intent intent = new Intent(AddActivity.this, ShowRecord.class);
                         intent.putExtra("audioPath", path);
                         startActivity(intent);
@@ -294,16 +327,16 @@ public class AddActivity extends Activity
                     else if (path.substring(path.length() - 3, path.length()).equals("mp4"))
                     {
 
-                        Log.d(TAG, "onClick: video  path"+path);
+                        Log.d(TAG, "onClick: video  path" + path);
                         Intent it = new Intent(Intent.ACTION_VIEW);
-                        Uri uri = Uri.parse("file://"+path);
+                        Uri uri = Uri.parse("file://" + path);
                         it.setDataAndType(uri, "video/*");
                         startActivity(it);
                     }
                     // 图片，则跳转到查看图片的界面
                     else
                     {
-                        Log.d(TAG, "onClick: image  path"+path);
+                        Log.d(TAG, "onClick: image  path" + path);
                         // 有两种方法，查看图片，第一种就是直接调用系统的图库查看图片，第二种是自定义Activity
                         // 调用系统图库查看图片
                         /*
@@ -357,7 +390,7 @@ public class AddActivity extends Activity
                         // 截取EditText中的前一部分作为标题，用于显示在主页列表中
                         String title = getTitle(context);
 
-                        String mood = mSpinnerAdapter.getItem(currentPos);
+                        String mood = mExpressImages.get(currentPos) + "";
                         // 打开数据库
                         dop.create_db();
                         // 判断是更新还是新增记事
@@ -500,7 +533,7 @@ public class AddActivity extends Activity
                     SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMddHHmmss");
                     Date curDate = new Date(System.currentTimeMillis());// 获取当前时间
                     String str = formatter.format(curDate);
-                    videoPath=Environment.getExternalStorageDirectory().getAbsoluteFile() + "/" + str + ".mp4";
+                    videoPath = Environment.getExternalStorageDirectory().getAbsoluteFile() + "/" + str + ".mp4";
                     videoFile = new File(videoPath);
                     intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(videoFile));
                     startActivityForResult(intent, 6);
@@ -633,7 +666,8 @@ public class AddActivity extends Activity
             {
                 bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.video);
                 // 插入录音图标
-                if (videoPath != null) {
+                if (videoPath != null)
+                {
                     InsertBitmap(bitmap, 200, videoPath);
                 }
             }
@@ -688,8 +722,6 @@ public class AddActivity extends Activity
         bitmap = Bitmap.createBitmap(bitmap, 0, 0, imgWidth, imgHeight, mx, true);
         return bitmap;
     }
-
-
 
     // 给图片加边框，并返回边框后的图片
     public Bitmap getBitmapHuaSeBianKuang(Bitmap bitmap)

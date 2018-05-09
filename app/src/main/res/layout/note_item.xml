@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
-                android:layout_height="85dp"
+                android:layout_height="105dp"
                 android:layout_marginTop="5dp"
                 android:background="@color/colorPrimaryDark"
                 android:orientation="vertical"
@@ -20,7 +20,7 @@
     <TextView
         android:id="@+id/tv_note_title"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_margin="5dp"
         android:layout_toRightOf="@id/tv_note_id"
         android:singleLine="true"
@@ -42,16 +42,15 @@
 
         />
 
-    <TextView
-        android:id="@+id/tv_note_mood"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/iv_note_mood"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="fitCenter"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="5dp"
         android:layout_marginRight="25dp"
         android:layout_toLeftOf="@id/tv_note_time"
-        android:text="很好"
-        android:textColor="#fff"
+
 
         />
     <TextView
@@ -59,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="5dp"
-        android:layout_toLeftOf="@id/tv_note_mood"
+        android:layout_toLeftOf="@id/iv_note_mood"
         android:text="我的心情："
         android:textColor="#fff"
 

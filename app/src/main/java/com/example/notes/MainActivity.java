@@ -1,5 +1,8 @@
 package com.example.notes;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -9,13 +12,15 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
+import android.widget.BaseAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 
 public class MainActivity extends Activity
@@ -29,6 +34,8 @@ public class MainActivity extends Activity
     private ListView lv_notes;
 
     private TextView tv_note_id;
+
+    private List<NoteItem> mNoteItems;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -44,7 +51,7 @@ public class MainActivity extends Activity
         dop = new DatabaseOperation(this, db);
 
         lv_notes = (ListView) findViewById(R.id.lv_notes);
-
+        mNoteItems = new ArrayList<NoteItem>();
     }
 
     @Override
@@ -62,14 +69,21 @@ public class MainActivity extends Activity
     // 显示记事列表
     private void showNotesList()
     {
+        mNoteItems.clear();
         // 创建或打开数据库
         dop.create_db();
         Cursor cursor = dop.query_db();
-        SimpleCursorAdapter adapter = new SimpleCursorAdapter(this, R.layout.note_item, cursor,
-                new String[] {"_id", "title","mood", "time"},
-                new int[] {R.id.tv_note_id, R.id.tv_note_title,R.id.tv_note_mood,R.id.tv_note_time});
-        lv_notes.setAdapter(adapter);
+
+        while (cursor.moveToNext())
+        {
+            String title = cursor.getString(cursor.getColumnIndex("title"));
+            String id = cursor.getString(cursor.getColumnIndex("_id"));
+            String mood = cursor.getString(cursor.getColumnIndex("mood"));
+            String time = cursor.getString(cursor.getColumnIndex("time"));
+            mNoteItems.add(new NoteItem(id,title,mood,time));
+        }
         dop.close_db();
+        lv_notes.setAdapter(new NoteAdapter());
 
     }
 
@@ -152,6 +166,68 @@ public class MainActivity extends Activity
             Intent intent = new Intent(MainActivity.this, AddActivity.class);
             intent.putExtra("editModel", "newAdd");
             startActivity(intent);
+        }
+    }
+    class NoteAdapter extends BaseAdapter {
+        @Override
+        public int getCount() {
+            return mNoteItems.size();
+        }
+
+        @Override
+        public Object getItem(int position) {
+            return mNoteItems.get(position);
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return position;
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            ViewHolder holder;
+            if(convertView==null){
+
+                convertView =View.inflate(MainActivity.this,R.layout.note_item,null);
+                holder=new ViewHolder();
+                holder.idTv= (TextView) convertView.findViewById(R.id.tv_note_id);
+                holder.titleTv= (TextView) convertView.findViewById(R.id.tv_note_title);
+                holder.timeTv= (TextView) convertView.findViewById(R.id.tv_note_time);
+                holder.expressIv= (ImageView) convertView.findViewById(R.id.iv_note_mood);
+                convertView.setTag(holder);
+            }else {
+                holder= (ViewHolder) convertView.getTag();
+            }
+            NoteItem noteItem=mNoteItems.get(position);
+            holder.idTv.setText(noteItem.id);
+            holder.titleTv.setText(noteItem.title);
+            holder.timeTv.setText(noteItem.time);
+            holder.expressIv.setImageResource(Integer.parseInt(noteItem.mood));
+            return convertView;
+        }
+    }
+    class ViewHolder{
+        TextView idTv;
+        TextView titleTv;
+        ImageView expressIv;
+        TextView timeTv;
+    }
+    class NoteItem
+    {
+        String id;
+        String title;
+
+        String mood;
+
+        String time;
+
+        public NoteItem(String id,String title, String mood, String time)
+        {
+            this.id=id;
+            this.title = title;
+            this.mood = mood;
+            this.time = time;
         }
     }
 

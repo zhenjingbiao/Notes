@@ -8,7 +8,7 @@
     <LinearLayout
         android:id="@+id/mood_ll"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:layout_marginTop="5dp"
@@ -23,13 +23,27 @@
             android:text="请选择心情:"
             android:textColor="@color/black"
             />
-
-        <Spinner
-            android:id="@+id/mood_select_sp"
+        <ImageView
+            android:id="@+id/selected_iv"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/express1"
+            />
+        <Button
+            android:id="@+id/select_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:text="点击选择表情"
             />
+
+      <!--  <Spinner
+            android:id="@+id/mood_select_sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weigimage1t="1"
+            />-->
     </LinearLayout>
 
     <ScrollView

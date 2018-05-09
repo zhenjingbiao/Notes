@@ -76,9 +76,12 @@
                 {
                     "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\values\\arrays.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1"
+                        "startLines": "24,15,6,2",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "657,404,194,57",
+                        "endLines": "27,23,13,5",
+                        "endColumns": "19,19,19,19",
+                        "endOffsets": "764,651,395,188"
                     },
                     "to": {
                         "startLines": "2,6,15,23",
@@ -92,9 +95,11 @@
                 {
                     "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                        "startLines": "13,5,3,11,12,4,10,9,8,7",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "475,156,58,395,437,102,357,309,253,211",
+                        "endColumns": "38,52,42,41,37,52,37,47,55,41",
+                        "endOffsets": "509,204,96,432,470,150,390,352,304,248"
                     },
                     "to": {
                         "startLines": "191,192,193,194,195,196,197,198,199,200",
@@ -107,25 +112,30 @@
                 {
                     "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1"
+                        "startLines": "6,27,34,30,15",
+                        "startColumns": "4,4,5,4,4",
+                        "startOffsets": "250,1169,1480,1332,581",
+                        "endLines": "12,29,37,32,24",
+                        "endColumns": "12,12,13,12,12",
+                        "endOffsets": "540,1326,1707,1457,1151"
                     },
                     "to": {
-                        "startLines": "201,204,207,211,214",
+                        "startLines": "201,208,211,215,218",
                         "startColumns": "4,4,4,4,4",
-                        "startOffsets": "8496,8579,8651,8880,9008",
-                        "endLines": "203,206,210,213,223",
+                        "startOffsets": "8496,8787,8947,9176,9304",
+                        "endLines": "207,210,214,217,227",
                         "endColumns": "12,12,13,12,12",
-                        "endOffsets": "8574,8646,8875,9003,9487"
+                        "endOffsets": "8782,8942,9171,9299,9865"
                     }
                 },
                 {
                     "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
-                        "startLines": "-1,-1",
-                        "startColumns": "-1,-1",
-                        "startOffsets": "-1,-1"
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
                     },
                     "to": {
                         "startLines": "189,190",
