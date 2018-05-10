@@ -52,7 +52,7 @@ public class ShowRecord extends Activity {
 			}
 		});
 		Button bt_del = (Button)findViewById(R.id.bt_save);
-		bt_del.setVisibility(View.GONE);
+		bt_del.setVisibility(View.INVISIBLE);
 		
 		Intent intent = this.getIntent();
 		audioPath = intent.getStringExtra("audioPath");

@@ -113,7 +113,7 @@ public class CustomPopView extends PopupWindow {
             int[] location = new int[2];
             //获取在整个屏幕内的绝对坐标
             parent.getLocationOnScreen(location);
-            this.showAtLocation(parent, 0, location[0] / 2 + parent.getWidth() / 2 - this.w / 6, location[1] + parent.getHeight());
+            this.showAtLocation(parent, 0, location[0] / 2 + parent.getWidth() / 2 , location[1] + parent.getHeight());
         }
     }
 }

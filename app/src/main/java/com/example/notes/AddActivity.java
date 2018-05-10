@@ -91,7 +91,7 @@ public class AddActivity extends Activity implements IPopView
 
     private ArrayList<String> mMoods;
 
-    private int currentPos = 0;
+    private Integer currentPos;
 
     private File videoFile;
 
@@ -102,6 +102,8 @@ public class AddActivity extends Activity implements IPopView
     private Button mSelecteBtn;
 
     private List<Integer> mExpressImages = new ArrayList<Integer>();
+
+    private String mLastMood;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -187,7 +189,9 @@ public class AddActivity extends Activity implements IPopView
             String context = cursor.getString(cursor.getColumnIndex("context"));
 
             String mood = cursor.getString(cursor.getColumnIndex("mood"));
-            if(!TextUtils.isEmpty(mood)){
+            if (!TextUtils.isEmpty(mood))
+            {
+                mLastMood = mood;
                 mSelectedIv.setImageResource(Integer.parseInt(mood));
             }
             // 定义正则表达式，用于匹配路径
@@ -368,8 +372,17 @@ public class AddActivity extends Activity implements IPopView
                         String time = formatter.format(curDate);
                         // 截取EditText中的前一部分作为标题，用于显示在主页列表中
                         String title = getTitle(context);
+                        String mood;
+                        if (currentPos != null)
+                        {
 
-                        String mood = mExpressImages.get(currentPos) + "";
+                            mood = mExpressImages.get(currentPos) + "";
+                        }
+                        else
+                        {
+                            mood = mLastMood;
+                        }
+
                         // 打开数据库
                         dop.create_db();
                         // 判断是更新还是新增记事

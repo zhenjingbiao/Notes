@@ -53,7 +53,7 @@ public class ShowPicture extends Activity {
 			}
 		});
 		Button bt_del = (Button)findViewById(R.id.bt_save);
-		bt_del.setVisibility(View.GONE);
+		bt_del.setVisibility(View.INVISIBLE);
 		
 		dm = new DisplayMetrics();  
         getWindowManager().getDefaultDisplay().getMetrics(dm); //获取分辨率  
