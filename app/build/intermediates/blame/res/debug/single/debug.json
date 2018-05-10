@@ -8,10 +8,6 @@
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_record_stop_default.png"
     },
     {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express24.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express24.png"
-    },
-    {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_popwindow_background.png.flat",
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\popwindow_background.png"
     },
@@ -28,16 +24,16 @@
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\activity_paint.xml"
     },
     {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_photo.xml.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_photo.xml"
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_show_picture.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\activity_show_picture.xml"
     },
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_line_age.jpg.flat",
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\line_age.jpg"
     },
     {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_show_picture.xml.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\activity_show_picture.xml"
+        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_photo.xml.flat",
+        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_photo.xml"
     },
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_camera_pressed.png.flat",
@@ -50,10 +46,6 @@
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_line.png.flat",
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\line.png"
-    },
-    {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express17.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express17.png"
     },
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_erazer_normal.png.flat",
@@ -96,10 +88,6 @@
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_appendix_pressed.png"
     },
     {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express18.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express18.png"
-    },
-    {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_handwrite.xml.flat",
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_handwrite.xml"
     },
@@ -114,14 +102,6 @@
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_appendix.png.flat",
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_appendix.png"
-    },
-    {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express30.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express30.png"
-    },
-    {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express26.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express26.png"
     },
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon.png.flat",
@@ -176,24 +156,12 @@
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_close_pressed.png"
     },
     {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express10.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express10.png"
-    },
-    {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express3.png.flat",
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express3.png"
     },
     {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express23.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express23.png"
-    },
-    {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_navigationbar_backup_pressed.png.flat",
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\navigationbar_backup_pressed.png"
-    },
-    {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express19.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express19.png"
     },
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_more.xml.flat",
@@ -244,10 +212,6 @@
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_pencil_normal.png"
     },
     {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express16.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express16.png"
-    },
-    {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_pen_default.png.flat",
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_pen_default.png"
     },
@@ -256,16 +220,8 @@
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\record_wave_left_01.png"
     },
     {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express29.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express29.png"
-    },
-    {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_record_wave_left_04.png.flat",
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\record_wave_left_04.png"
-    },
-    {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express13.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express13.png"
     },
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_navigationbar_save_pressed.png.flat",
@@ -312,16 +268,8 @@
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_icon_color_pressed.png"
     },
     {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express20.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express20.png"
-    },
-    {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_record_wave_left_02.png.flat",
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\record_wave_left_02.png"
-    },
-    {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express28.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express28.png"
     },
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable_record_wave_left.xml.flat",
@@ -356,20 +304,12 @@
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\navigationbar_bg.png"
     },
     {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express12.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express12.png"
-    },
-    {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_icon_forward_pressed.png.flat",
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_icon_forward_pressed.png"
     },
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_icon_delete.xml.flat",
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_icon_delete.xml"
-    },
-    {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express27.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express27.png"
     },
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_camera_default.png.flat",
@@ -390,10 +330,6 @@
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_icon_color_normal.png.flat",
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_icon_color_normal.png"
-    },
-    {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express21.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express21.png"
     },
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_play.png.flat",
@@ -430,10 +366,6 @@
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_title_add.xml.flat",
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\title_add.xml"
-    },
-    {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express11.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express11.png"
     },
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_navigationbar_save_default.png.flat",
@@ -480,24 +412,12 @@
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\layout\\paint_style_dialog.xml"
     },
     {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express22.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express22.png"
-    },
-    {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express15.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express15.png"
-    },
-    {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_paint_default.png.flat",
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\tabbar_paint_default.png"
     },
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paint_icon_forward.xml.flat",
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\paint_icon_forward.xml"
-    },
-    {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express14.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express14.png"
     },
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_shownote.xml.flat",
@@ -510,10 +430,6 @@
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
         "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_express25.png.flat",
-        "source": "E:\\DEV\\Notes\\app\\src\\main\\res\\drawable-mdpi\\express25.png"
     },
     {
         "merged": "E:\\DEV\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tabbar_photo_pressed.png.flat",

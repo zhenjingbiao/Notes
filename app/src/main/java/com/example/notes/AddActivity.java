@@ -52,7 +52,7 @@ import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.notes.utils.CustomPopView;
+import com.example.notes.view.CustomPopView;
 
 public class AddActivity extends Activity implements IPopView
 {
@@ -127,27 +127,6 @@ public class AddActivity extends Activity implements IPopView
         mExpressImages.add(R.drawable.express7);
         mExpressImages.add(R.drawable.express8);
         mExpressImages.add(R.drawable.express9);
-        mExpressImages.add(R.drawable.express10);
-        mExpressImages.add(R.drawable.express11);
-        mExpressImages.add(R.drawable.express12);
-        mExpressImages.add(R.drawable.express13);
-        mExpressImages.add(R.drawable.express14);
-        mExpressImages.add(R.drawable.express15);
-        mExpressImages.add(R.drawable.express16);
-        mExpressImages.add(R.drawable.express17);
-        mExpressImages.add(R.drawable.express18);
-        mExpressImages.add(R.drawable.express19);
-        mExpressImages.add(R.drawable.express20);
-        mExpressImages.add(R.drawable.express21);
-        mExpressImages.add(R.drawable.express22);
-        mExpressImages.add(R.drawable.express23);
-        mExpressImages.add(R.drawable.express24);
-        mExpressImages.add(R.drawable.express25);
-        mExpressImages.add(R.drawable.express26);
-        mExpressImages.add(R.drawable.express27);
-        mExpressImages.add(R.drawable.express28);
-        mExpressImages.add(R.drawable.express29);
-        mExpressImages.add(R.drawable.express30);
     }
 
     private void initView()

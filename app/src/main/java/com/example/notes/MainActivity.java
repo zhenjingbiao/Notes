@@ -80,7 +80,7 @@ public class MainActivity extends Activity
             String id = cursor.getString(cursor.getColumnIndex("_id"));
             String mood = cursor.getString(cursor.getColumnIndex("mood"));
             String time = cursor.getString(cursor.getColumnIndex("time"));
-            mNoteItems.add(new NoteItem(id,title,mood,time));
+            mNoteItems.add(new NoteItem(id, title, mood, time));
         }
         dop.close_db();
         lv_notes.setAdapter(new NoteAdapter());
@@ -168,38 +168,47 @@ public class MainActivity extends Activity
             startActivity(intent);
         }
     }
-    class NoteAdapter extends BaseAdapter {
+
+    class NoteAdapter extends BaseAdapter
+    {
         @Override
-        public int getCount() {
+        public int getCount()
+        {
             return mNoteItems.size();
         }
 
         @Override
-        public Object getItem(int position) {
+        public Object getItem(int position)
+        {
             return mNoteItems.get(position);
         }
 
         @Override
-        public long getItemId(int position) {
+        public long getItemId(int position)
+        {
             return position;
         }
 
         @Override
-        public View getView(int position, View convertView, ViewGroup parent) {
+        public View getView(int position, View convertView, ViewGroup parent)
+        {
             ViewHolder holder;
-            if(convertView==null){
+            if (convertView == null)
+            {
 
-                convertView =View.inflate(MainActivity.this,R.layout.note_item,null);
-                holder=new ViewHolder();
-                holder.idTv= (TextView) convertView.findViewById(R.id.tv_note_id);
-                holder.titleTv= (TextView) convertView.findViewById(R.id.tv_note_title);
-                holder.timeTv= (TextView) convertView.findViewById(R.id.tv_note_time);
-                holder.expressIv= (ImageView) convertView.findViewById(R.id.iv_note_mood);
+                convertView = View.inflate(MainActivity.this, R.layout.note_item, null);
+                holder = new ViewHolder();
+                holder.idTv = (TextView) convertView.findViewById(R.id.tv_note_id);
+                holder.titleTv = (TextView) convertView.findViewById(R.id.tv_note_title);
+                holder.timeTv = (TextView) convertView.findViewById(R.id.tv_note_time);
+                holder.expressIv = (ImageView) convertView.findViewById(R.id.iv_note_mood);
                 convertView.setTag(holder);
-            }else {
-                holder= (ViewHolder) convertView.getTag();
             }
-            NoteItem noteItem=mNoteItems.get(position);
+            else
+            {
+                holder = (ViewHolder) convertView.getTag();
+            }
+            NoteItem noteItem = mNoteItems.get(position);
             holder.idTv.setText(noteItem.id);
             holder.titleTv.setText(noteItem.title);
             holder.timeTv.setText(noteItem.time);
@@ -207,24 +216,31 @@ public class MainActivity extends Activity
             return convertView;
         }
     }
-    class ViewHolder{
+
+    class ViewHolder
+    {
         TextView idTv;
+
         TextView titleTv;
+
         ImageView expressIv;
+
         TextView timeTv;
     }
+
     class NoteItem
     {
         String id;
+
         String title;
 
         String mood;
 
         String time;
 
-        public NoteItem(String id,String title, String mood, String time)
+        public NoteItem(String id, String title, String mood, String time)
         {
-            this.id=id;
+            this.id = id;
             this.title = title;
             this.mood = mood;
             this.time = time;

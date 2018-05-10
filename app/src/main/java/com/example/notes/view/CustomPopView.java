@@ -1,4 +1,4 @@
-package com.example.notes.utils;
+package com.example.notes.view;
 /*
  * Created by jingbiaozhen on 2018/5/9.
  **/
